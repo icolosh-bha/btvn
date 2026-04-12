@@ -1,0 +1,115 @@
+Create a full-stack shopping website with both frontend and backend.
+
+GENERAL REQUIREMENTS:
+- Clean and modern UI (not overly complex).
+- Functional login system.
+- Product listing with shopping cart functionality.
+- Search with live suggestions.
+- Account management page.
+- Backend must handle login, cart logic, and checkout.
+- You may use Node.js + Express for backend.
+- Data can be stored in memory or database (optional).
+- Provide clear project structure and instructions to run the project.
+
+=================================
+1. LOGIN PAGE (FIRST SCREEN)
+=================================
+
+When users access the website, they must see a Login Page containing:
+
+- Website name displayed at the top.
+- Username input field.
+- Password input field (masked, not visible).
+- Login button.
+
+Behavior:
+- If login credentials are correct → redirect to Shopping Page.
+- If incorrect → show an error message.
+
+=================================
+2. SHOPPING PAGE
+=================================
+
+The shopping page must include:
+
+- A top navigation menu.
+- A search bar.
+- A product listing displayed in card layout.
+
+Each product card must contain:
+- Product image
+- Product name
+- Price
+- Short detailed description
+- Star rating (1–5 stars using icons)
+- "Buy" button
+
+When the user clicks "Buy":
+→ The product is added to the shopping cart.
+
+=================================
+3. SHOPPING CART FUNCTIONALITY
+=================================
+
+The cart must include:
+
+- List of selected products
+- Display quantity per product
+- Increase quantity button
+- Decrease quantity button
+- Remove product button
+- Total price calculation
+- Checkout button
+
+=================================
+4. CHECKOUT PROCESS
+=================================
+
+When the user clicks "Checkout":
+
+Display a payment form requesting:
+- Bank name
+- Bank account number
+- Account holder name
+
+After submission:
+- Show "Payment Successful" message
+- Clear the cart
+
+=================================
+5. SEARCH FUNCTION
+=================================
+
+The search bar must:
+
+- Filter products dynamically while typing.
+- Display product suggestions based on keywords.
+- Update product listing in real-time.
+
+=================================
+6. MENU & ACCOUNT PAGE
+=================================
+
+The navigation menu must include:
+- Home
+- Cart
+- Account
+- Logout
+
+The Account page must allow users to input and edit:
+- Name
+- Email
+- Phone number
+- Age
+- Save button
+- Logout button (returns to login page)
+
+=================================
+TECHNICAL REQUIREMENTS
+=================================
+
+- Separate frontend and backend properly.
+- Backend handles login validation, cart operations, and checkout logic.
+- Clean code structure.
+- Explain how to install dependencies and run the project.
+- Optional: Use simple in-memory storage for demo purposes.
